@@ -24,7 +24,7 @@ window.addEventListener('scroll', () => {
         const sectionTop = section.offsetTop - 100;
         const sectionHeight = section.clientHeight;
         
-        if (window.pageYOffset >= sectionTop) {
+        if (window.scrollY >= sectionTop) {
             current = section.getAttribute('id');
         }
     });
