@@ -92,6 +92,14 @@ body {
     width: 100%;
 }
 
+.nav-link.active-link {
+    color: var(--highlight-color);
+}
+
+.nav-link.active-link::after {
+    width: 100%;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
